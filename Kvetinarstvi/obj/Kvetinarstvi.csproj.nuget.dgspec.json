@@ -67,6 +67,14 @@
             "Avalonia.Themes.Fluent": {
               "target": "Package",
               "version": "[11.0.2, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.21.12, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

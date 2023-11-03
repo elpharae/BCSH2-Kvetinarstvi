@@ -30,13 +30,27 @@ C:\Users\elpha\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib
 C:\Users\elpha\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\elpha\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\Microsoft.CodeAnalysis.Scripting.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\Microsoft.CSharp.dll
+C:\Users\elpha\.nuget\packages\microsoft.entityframeworkcore.abstractions\7.0.3\lib\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\elpha\.nuget\packages\microsoft.entityframeworkcore\7.0.3\lib\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\elpha\.nuget\packages\microsoft.entityframeworkcore.relational\7.0.3\lib\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\elpha\.nuget\packages\microsoft.extensions.caching.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\elpha\.nuget\packages\microsoft.extensions.caching.memory\7.0.0\lib\net7.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\elpha\.nuget\packages\microsoft.extensions.configuration.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\elpha\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\elpha\.nuget\packages\microsoft.extensions.dependencyinjection\7.0.0\lib\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\elpha\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\elpha\.nuget\packages\microsoft.extensions.logging\7.0.0\lib\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\elpha\.nuget\packages\microsoft.extensions.options\7.0.0\lib\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\elpha\.nuget\packages\microsoft.extensions.primitives\7.0.0\lib\net7.0\Microsoft.Extensions.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\Microsoft.VisualBasic.Core.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\Microsoft.VisualBasic.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\Microsoft.Win32.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\Microsoft.Win32.Registry.dll
-C:\Users\elpha\.nuget\packages\microsoft.win32.systemevents\6.0.0\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\elpha\.nuget\packages\microsoft.win32.systemevents\7.0.0\lib\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\mscorlib.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\netstandard.dll
+C:\Users\elpha\.nuget\packages\oracle.entityframeworkcore\7.21.12\lib\net6.0\Oracle.EntityFrameworkCore.dll
+C:\Users\elpha\.nuget\packages\oracle.manageddataaccess.core\3.21.120\lib\netstandard2.1\Oracle.ManagedDataAccess.dll
 C:\Users\elpha\.nuget\packages\reactiveui\18.3.1\lib\net6.0\ReactiveUI.dll
 C:\Users\elpha\.nuget\packages\skiasharp\2.88.3\lib\net6.0\SkiaSharp.dll
 C:\Users\elpha\.nuget\packages\splat\14.4.1\lib\net6.0\Splat.dll
@@ -53,6 +67,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.ComponentModel.EventBasedAsync.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.ComponentModel.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.ComponentModel.TypeConverter.dll
+C:\Users\elpha\.nuget\packages\system.configuration.configurationmanager\7.0.0\lib\net7.0\System.Configuration.ConfigurationManager.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Configuration.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Console.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Core.dll
@@ -62,15 +77,19 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Diagnostics.Contracts.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Diagnostics.Debug.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\elpha\.nuget\packages\system.diagnostics.eventlog\7.0.0\lib\net7.0\System.Diagnostics.EventLog.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Diagnostics.FileVersionInfo.dll
+C:\Users\elpha\.nuget\packages\system.diagnostics.performancecounter\6.0.1\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Diagnostics.Process.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Diagnostics.StackTrace.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Diagnostics.TextWriterTraceListener.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Diagnostics.Tools.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Diagnostics.TraceSource.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Diagnostics.Tracing.dll
+C:\Users\elpha\.nuget\packages\system.directoryservices\6.0.1\lib\net6.0\System.DirectoryServices.dll
+C:\Users\elpha\.nuget\packages\system.directoryservices.protocols\6.0.2\lib\net6.0\System.DirectoryServices.Protocols.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.dll
-C:\Users\elpha\.nuget\packages\system.drawing.common\6.0.0\lib\net6.0\System.Drawing.Common.dll
+C:\Users\elpha\.nuget\packages\system.drawing.common\7.0.0\lib\net7.0\System.Drawing.Common.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Drawing.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Drawing.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Dynamic.Runtime.dll
@@ -160,8 +179,10 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Security.Cryptography.Encoding.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Security.Cryptography.OpenSsl.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Security.Cryptography.Primitives.dll
+C:\Users\elpha\.nuget\packages\system.security.cryptography.protecteddata\7.0.0\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Security.Cryptography.X509Certificates.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Security.dll
+C:\Users\elpha\.nuget\packages\system.security.permissions\7.0.0\lib\net7.0\System.Security.Permissions.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Security.Principal.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Security.Principal.Windows.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Security.SecureString.dll
@@ -189,6 +210,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Web.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Web.HttpUtility.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Windows.dll
+C:\Users\elpha\.nuget\packages\system.windows.extensions\7.0.0\lib\net7.0\System.Windows.Extensions.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Xml.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Xml.Linq.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Xml.ReaderWriter.dll
