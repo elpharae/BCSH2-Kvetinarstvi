@@ -1,0 +1,235 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EBA235F-B504-F288-F0C2-64096477EBD9" name="ZAMESTNANEC">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>35A1DA88-96A9-77AF-F5AF-C94571DD55F2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zamestnanec_id" id="74333322-0ABD-5703-3C69-146BB3AA3B9B">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>CA579D27-B2C4-BAFD-F9D5-4567E8BF70C2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pracoviste_id" id="1104F73E-8F04-EB55-42B3-15EA4CD59709">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>0A932068-1F3F-B497-5633-2FCD4D6DD66D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38A3807F-A622-7CF9-7B32-E485A34F5D16" referredColumn="8E36E82F-A576-B200-C7DE-FF4234AA9BB5"/>
+</associations>
+</Column>
+<Column name="pracovni_pozice_id" id="8192CF55-A052-BBBE-5824-6A48174690E3">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>91F41F28-6F1D-0F7B-64CA-C7CCA1FB377A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89872311-DC01-9535-3D0E-C49ED910403B" referredColumn="D88E9CE9-DD6D-E14D-3226-C6CD2AA07425"/>
+</associations>
+</Column>
+<Column name="adresa_id" id="34BEC672-69EB-4310-23AD-6F18F1119CC6">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>3634865B-A73E-7D4B-EA89-BACD8AEF87A0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CFFA620-6627-9F98-61FA-C21B0B4EAA65" referredColumn="AC3AE61E-8D07-9715-F4E8-6FF758444773"/>
+</associations>
+</Column>
+<Column name="opravneni_id" id="88541173-CA20-0563-7513-D5FE12907AAB">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>9ACDDD4C-1F58-3E5C-C11A-3F998889CE30</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCA68D1E-6DE2-3C01-BF6B-C889DD7DE875" referredColumn="C8CBC641-DEA4-B838-4EFB-EE75223F0E2D"/>
+</associations>
+</Column>
+<Column name="obrazek_id" id="170F9B3E-6E14-5E29-D6CB-50BEB2B1D8B6">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>DAA6DE14-06F1-BC71-03EB-775945B338D6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="252674F0-3EF3-E207-1831-750FC6473F3D" referredColumn="5C90F7F1-C749-CF45-3FF3-AA6183AABAD5"/>
+</associations>
+</Column>
+<Column name="jmeno" id="378DDB60-5551-EDDD-37F7-80ABFF726D0F">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>2BD15CB6-66D1-255B-7A33-F376FE211522</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prijmeni" id="43058DBD-9E56-CE60-C98F-A5CD41C50442">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>374852BA-5670-2C4C-6899-4340C55219F9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="FF22BECF-1CD7-4192-6408-029603390C29">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>939E3A56-45B3-CB86-4778-B304C1AA475B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="heslo_bcrypt" id="8BD376BD-4FC2-3D11-E0C5-CCAF5600ADBB">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>C69E0FA3-3A31-83DD-D7A9-FC1E559BF1DE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mzda" id="0E32C9EF-3F8F-5B4A-147E-2CF522C14F66">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>1AF6995A-9A6E-126C-CABF-5B00C8F81CF6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>999.99</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5D7A850-C05A-206E-3C97-BC8FA5FBC271" name="ZAMESTNANEC_PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>FA5F3189-A0D6-3C71-72A8-E4EC822E2951</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74333322-0ABD-5703-3C69-146BB3AA3B9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="089CEF55-49FF-2909-C56A-6A34BC742A9C" name="ZAMESTNANEC_PRACOVNI_POZICE_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>556C5387-5BA6-8E42-2F58-16D6B045894D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8192CF55-A052-BBBE-5824-6A48174690E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4D804EE-F14C-CEFC-57CC-80DBF0FF0886" name="ZAMESTNANEC_ADRESA_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>7AF7D170-9F1E-4AC3-B0A6-B1AF928FB503</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34BEC672-69EB-4310-23AD-6F18F1119CC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD14EB7B-0675-7698-4D9E-74D4CA87A3C4" name="ZAMESTNANEC_OPRAVNENI_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>CA4743D1-17DF-9B80-291D-2F91AC8FECE7</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88541173-CA20-0563-7513-D5FE12907AAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="007DE55A-1044-A515-239A-72313124AB54" name="ZAMESTNANEC_OBRAZEK_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>A766698E-C685-F25B-18F1-348A5D1FE1EE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="170F9B3E-6E14-5E29-D6CB-50BEB2B1D8B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7735CD93-6DFE-27E7-E938-EC910B321B25" name="ZAMESTNANEC_PRACOVISTE_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>7974E8DC-CEEC-3D15-26B5-825AAFA8F687</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1104F73E-8F04-EB55-42B3-15EA4CD59709"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

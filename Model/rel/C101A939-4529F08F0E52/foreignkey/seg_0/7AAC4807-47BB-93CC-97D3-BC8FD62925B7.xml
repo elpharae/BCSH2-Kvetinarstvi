@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7AAC4807-47BB-93CC-97D3-BC8FD62925B7" containerWithKeyObject="290842A3-3F5D-C428-ABA0-08A8B3AE824D" localFKIndex="8401C992-3F65-8B1D-4B84-C9C853546932" name="KVETINA_KATEGORIE_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>EEFAA6C6-E803-0DEB-5974-E12FC16733C7</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>KATEGORIE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C089662F-10AD-035E-997E-DE92FDCDB066</referredTableID>
+<keyObject>0B0C3767-8DF4-CBAF-904B-96D7CF4617F0</keyObject>
+<referredKeyID>0B0C3767-8DF4-CBAF-904B-96D7CF4617F0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>kategorie_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

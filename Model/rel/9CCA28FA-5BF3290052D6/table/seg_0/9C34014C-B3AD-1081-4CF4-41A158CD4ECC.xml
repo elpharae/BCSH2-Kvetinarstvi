@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C34014C-B3AD-1081-4CF4-41A158CD4ECC" name="OBJEDNAVKA">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>83528895-20BF-AB7B-C220-DC238C669B61</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="objednavka_id" id="F3879BC1-195E-8370-D54B-3E768F2E9391">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>43078463-5C06-6746-BEE6-2500E9613788</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zakaznik_id" id="34C1A3CE-352B-542A-7484-1312071D149B">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>443B22FD-5108-E1F7-EA32-BEE0C7D63720</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E28D0E1D-4CA8-D25A-B337-17B4A067969D" referredColumn="7EE86463-617D-7FFC-FFFA-67DD28F09636"/>
+</associations>
+</Column>
+<Column name="celkova_cena" id="837FF29D-5F58-9099-16D3-7F859D19BB40">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>6B1A305E-6A54-D802-9DE0-0E02290669FD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_objednavky" id="C995FB37-A7BD-F640-CFC6-CF5A439B72AF">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>2BA578E6-3F78-DC54-A15D-B90619B3AC3D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="platba_id" id="0355AE50-5900-C30D-140B-1E338EDB9803">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>682B9FB9-3354-364A-61F0-C8835CEFB051</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B854D12-6290-AF95-2EA1-4015BBCB560E" referredColumn="EEA18111-FCBA-C63F-4C1C-13B436D2399D"/>
+</associations>
+</Column>
+<Column name="stav_id" id="34CA2DC8-D671-ED6C-E2F7-05756EE17676">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>FF646C05-B1E5-0E6A-F16B-9B312B3CCFA0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24644C77-2852-55CF-188F-596B61E9217E" referredColumn="90D3B6FE-C398-A180-A801-409147A9AC49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D57BBD3-16B1-C40F-B862-AE7ACD1A4D23" name="OBJEDNAVKA_PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>DD26D43D-6577-2FEB-EE97-32AB351CB088</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3879BC1-195E-8370-D54B-3E768F2E9391"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="733C2A26-BFCA-E8EB-8136-329A0C0F0F3E" name="OBJEDNAVKA_ZAKAZNIK_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>1F344286-A973-51DB-DAAA-6C9E5E00EFD5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34C1A3CE-352B-542A-7484-1312071D149B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17EF32CD-1CB8-C049-471D-398929EB5F0C" name="OBJEDNAVKA_PLATBA_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>53F007C0-BF24-A804-EDA0-AE3320AD09E4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0355AE50-5900-C30D-140B-1E338EDB9803"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAC878FD-A63A-EE73-81FE-4ACE81DAAC9D" name="OBJEDNAVKA_STAV_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>F327631F-ADFC-A825-A2C6-E233F96565C0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34CA2DC8-D671-ED6C-E2F7-05756EE17676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

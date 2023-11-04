@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8FE62621-651F-DE98-35E5-5807C6B4BE13" name="OBRAZEK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 18:40:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="obrazek_id" id="43A985A9-08A1-DF50-7D12-70486CC3049F">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 18:40:18 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="23CD8D41-0CA1-E9F3-C5AA-79E00F1AC4BE">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 18:40:37 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="C502B70D-A229-0299-DCB2-86AE4880A87D">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 18:40:48 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="popis" id="CCF0F888-F086-7BCA-8239-DFFF5CCDF0DA">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 18:41:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B78D2CA-C2C6-AE38-FB33-F0CD44505873" name="PICTURE PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 18:40:23 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43A985A9-08A1-DF50-7D12-70486CC3049F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

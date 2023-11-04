@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A14A0D6-39AD-B468-B82E-F6440AD7A2AD" name="STAV">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 21:30:56 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="stav_id" id="ED13C50E-440C-417E-DA47-CCBE5996723C">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 21:31:10 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="5CBE72A7-CCB6-D54D-19AA-7009C9CA9831">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 21:31:24 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3FABDCD4-6AAB-1394-E2B3-978FE713FD04" name="STAV PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 21:31:22 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ED13C50E-440C-417E-DA47-CCBE5996723C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

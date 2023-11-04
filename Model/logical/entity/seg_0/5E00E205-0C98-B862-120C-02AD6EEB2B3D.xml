@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E00E205-0C98-B862-120C-02AD6EEB2B3D" name="Price">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E00E205-0C98-B862-120C-02AD6EEB2B3D" name="CENA">
 <createdBy>elpha</createdBy>
 <createdTime>2023-11-02 23:15:03 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="08E116C2-CDE4-7960-1E27-040820AB764C" value="true"/>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,4 +14,47 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cena_id" id="2D718ECE-BC67-2B8F-9507-77B54E721295">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 14:34:13 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hodnota" id="F72CB2D1-19F9-8077-BD55-4E6E4415E4E1">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 18:34:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C44C81B2-67AB-BED5-E08D-2F612BCC232C" name="Price PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 14:34:27 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D718ECE-BC67-2B8F-9507-77B54E721295</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

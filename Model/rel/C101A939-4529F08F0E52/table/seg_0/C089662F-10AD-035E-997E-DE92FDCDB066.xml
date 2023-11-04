@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C089662F-10AD-035E-997E-DE92FDCDB066" name="KATEGORIE">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>2F062B41-DCAD-1922-16BD-F6BDFEAD9A2F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kategorie_id" id="66E47909-962D-44F1-D5D3-E756482D246A">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>5E605B47-4F0E-6B2F-88F1-DD39F611C5E3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>s_kategorie_id</autoIncrementSequenceName>
+<autoIncrementTriggerName>t_kategorie_id</autoIncrementTriggerName>
+</Column>
+<Column name="superkategorie_id" id="484648E1-1DD9-A044-6635-F0FBDD26B20E">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>893B17C8-885C-1730-BFB7-CAF3D286186E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01D4D960-145B-F846-BDF1-E95F2928A918" referredColumn="66E47909-962D-44F1-D5D3-E756482D246A"/>
+</associations>
+</Column>
+<Column name="nazev" id="7DD79476-A3CF-BD97-6E15-4D2546DFC3E6">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>542D2422-1376-2495-E1C9-D67B44274438</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B0C3767-8DF4-CBAF-904B-96D7CF4617F0" name="KATEGORIE_PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>4603A9BB-6767-84FF-F1D1-C1E230165C52</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66E47909-962D-44F1-D5D3-E756482D246A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7C74A5A-5584-C140-9524-C2F771E7508A" name="KATEGORIE_KATEGORIE_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>DB4F6CA0-F837-ECE4-9BD4-5C8B5BD07B85</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="484648E1-1DD9-A044-6635-F0FBDD26B20E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

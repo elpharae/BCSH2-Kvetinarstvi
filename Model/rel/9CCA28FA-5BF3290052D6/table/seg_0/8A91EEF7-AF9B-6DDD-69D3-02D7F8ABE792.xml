@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A91EEF7-AF9B-6DDD-69D3-02D7F8ABE792" name="OBJEDNANE_KVETINY">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="objednavka_id" id="C92F116A-6CD3-B353-F9BA-526167194BBA">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D543C134-A291-1AFB-2198-18F47B7CEFA0" referredColumn="F3879BC1-195E-8370-D54B-3E768F2E9391"/>
+</associations>
+</Column>
+<Column name="kvetina_id" id="4A4F7E97-42C6-D81E-6AB5-BAD2533DF4D3">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7364609F-359E-1E12-84CF-B915BCD1F6F6" referredColumn="8BC42199-68F5-143D-21C0-84A92704FDC9"/>
+</associations>
+</Column>
+<Column name="mnozstvi" id="F55CB13B-3CB2-9557-6B54-345A38C1A09A">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>C4863D31-4E6F-7156-C104-CD8615A78106</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="cena_za_kus" id="9C733C47-C213-9A14-6471-E862AE32DF9F">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>81D50DAF-1EA3-D4ED-98A2-57EE6EF3DACF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A6B0571-C2FF-C63F-D550-C1DAD516DB29" name="OBJEDNANE_KVETINY_PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C92F116A-6CD3-B353-F9BA-526167194BBA"/>
+<colUsage columnID="4A4F7E97-42C6-D81E-6AB5-BAD2533DF4D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73C31BB7-B4BE-A8B9-7B40-6C3D2373F1D2" name="OBJEDNANE_KVETINY_OBJEDNAVKA_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>7F55A441-CBC5-5F47-440A-5239000A30B0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C92F116A-6CD3-B353-F9BA-526167194BBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0AD082E-05F7-94C7-2CF7-7C602FFF03B6" name="OBJEDNANE_KVETINY_KVETINA_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>7F55A441-CBC5-5F47-440A-5239000A30B0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A4F7E97-42C6-D81E-6AB5-BAD2533DF4D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

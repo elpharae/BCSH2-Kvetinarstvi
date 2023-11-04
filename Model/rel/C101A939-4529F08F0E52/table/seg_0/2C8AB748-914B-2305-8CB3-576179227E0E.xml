@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C8AB748-914B-2305-8CB3-576179227E0E" name="OPRAVNENI">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>FAA4E03A-72E6-929E-3094-67F8EEEB8741</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="opravneni_id" id="06EE4A5D-800E-F847-DFFE-784F7647BC2E">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>1E5A8E30-0FDD-5FBD-77AD-C5BEA7AF2DB5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>s_opravneni_id</autoIncrementSequenceName>
+<autoIncrementTriggerName>t_opravneni_id</autoIncrementTriggerName>
+</Column>
+<Column name="nazev" id="EEA9E324-D24D-49A6-C239-F035B81EAA63">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>2EF226A0-CC82-677A-605C-D7584003C2CC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uroven_opravneni" id="60D0F306-9ECB-A29E-AF1E-081F29B58BD8">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>227BCAA5-D6AA-FEC8-3161-A847F37DA59D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfValues>
+<valueDef value="0" description="Admin"/>
+<valueDef value="1" description="Zaměstnanec"/>
+<valueDef value="2" description="Zákazník"/>
+<valueDef value="3" description="Anonymní zákazník"/>
+</listOfValues>
+<defaultValue>2</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4795441B-7CF3-65FB-90A5-95FC19877C3F" name="OPRAVNENI_PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>804960B3-6E61-2F1D-7451-5C6675948F62</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06EE4A5D-800E-F847-DFFE-784F7647BC2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

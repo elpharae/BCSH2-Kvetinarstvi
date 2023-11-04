@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="32D17AE5-D57A-4FB8-9121-D861D1D73EDD" containerWithKeyObject="A91BAA7D-6CE0-0FA9-1C70-680C595BA6E7" localFKIndex="6D1F6197-A42A-29A7-FA64-7E8C0AF3B4F6" name="HISTORIE_CENY_CENA_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>02A2AF72-C630-7678-3689-A56513F1E1D8</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>CENY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EBF17B2D-6A35-6D6E-CCC1-DD49245BA249</referredTableID>
+<keyObject>B7F5175A-4FAB-3048-F49A-3FDC1BAAD471</keyObject>
+<referredKeyID>B7F5175A-4FAB-3048-F49A-3FDC1BAAD471</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cena_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

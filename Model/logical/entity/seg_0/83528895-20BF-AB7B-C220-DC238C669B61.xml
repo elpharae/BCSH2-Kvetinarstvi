@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83528895-20BF-AB7B-C220-DC238C669B61" name="Order">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83528895-20BF-AB7B-C220-DC238C669B61" name="OBJEDNAVKA">
 <createdBy>elpha</createdBy>
 <createdTime>2023-11-02 23:14:59 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="08E116C2-CDE4-7960-1E27-040820AB764C" value="true"/>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,4 +14,101 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="objednavka_id" id="43078463-5C06-6746-BEE6-2500E9613788">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 14:33:53 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zakaznik_id" id="443B22FD-5108-E1F7-EA32-BEE0C7D63720">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 14:36:12 UTC</createdTime>
+<generatorID>1F344286-A973-51DB-DAAA-6C9E5E00EFD5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<referedAttribute>2581321D-1079-8D41-8A42-8B436F8020F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="celkova_cena" id="6B1A305E-6A54-D802-9DE0-0E02290669FD">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 20:37:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_objednavky" id="2BA578E6-3F78-DC54-A15D-B90619B3AC3D">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 20:37:22 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="platba_id" id="682B9FB9-3354-364A-61F0-C8835CEFB051">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 21:19:42 UTC</createdTime>
+<generatorID>53F007C0-BF24-A804-EDA0-AE3320AD09E4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<referedAttribute>B0F360CE-9722-D990-3B1C-0D71F16524A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stav_id" id="FF646C05-B1E5-0E6A-F16B-9B312B3CCFA0">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 21:31:52 UTC</createdTime>
+<generatorID>F327631F-ADFC-A825-A2C6-E233F96565C0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<referedAttribute>ED13C50E-440C-417E-DA47-CCBE5996723C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD26D43D-6577-2FEB-EE97-32AB351CB088" name="Order PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 14:33:59 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43078463-5C06-6746-BEE6-2500E9613788</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

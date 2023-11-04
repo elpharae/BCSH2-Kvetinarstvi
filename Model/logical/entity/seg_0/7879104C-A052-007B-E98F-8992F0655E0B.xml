@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7879104C-A052-007B-E98F-8992F0655E0B" name="PLATBA">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 21:18:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="platba_id" id="B0F360CE-9722-D990-3B1C-0D71F16524A0">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 21:19:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="33432337-1AE4-771A-BA1C-D5899139F914">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 21:19:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7AD8EDC-00A8-4AAC-9666-D8AB209BCBA2" name="PLATBA PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 21:19:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0F360CE-9722-D990-3B1C-0D71F16524A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

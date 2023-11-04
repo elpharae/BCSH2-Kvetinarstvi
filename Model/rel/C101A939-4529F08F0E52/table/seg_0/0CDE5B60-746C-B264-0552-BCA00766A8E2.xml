@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CDE5B60-746C-B264-0552-BCA00766A8E2" name="PLATBY">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>7879104C-A052-007B-E98F-8992F0655E0B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>platba</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="platba_id" id="547BF692-9F4E-11C6-D994-B7A2BD2970CC">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>B0F360CE-9722-D990-3B1C-0D71F16524A0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>s_platba_id</autoIncrementSequenceName>
+<autoIncrementTriggerName>t_platba_id</autoIncrementTriggerName>
+</Column>
+<Column name="nazev" id="C899E67D-5A8F-4240-4B42-25C4B827FB8C">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>33432337-1AE4-771A-BA1C-D5899139F914</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBE33CDD-D551-00D4-A700-9C08ECCBB8AE" name="PLATBA_PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>D7AD8EDC-00A8-4AAC-9666-D8AB209BCBA2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="547BF692-9F4E-11C6-D994-B7A2BD2970CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

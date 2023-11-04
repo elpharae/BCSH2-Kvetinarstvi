@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39C97186-124E-E518-34F0-972D56365813" name="KATEGORIE">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>2F062B41-DCAD-1922-16BD-F6BDFEAD9A2F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kategorie_id" id="94A2FEE0-2CD0-BDD7-5D4F-343660B74E49">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>5E605B47-4F0E-6B2F-88F1-DD39F611C5E3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kategorie_id2" id="9A74B4CA-306D-EAC6-3E12-1ED4C8B20D4F">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>893B17C8-885C-1730-BFB7-CAF3D286186E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="192A1BA6-8F7B-E09F-FF36-5163CF064CF1" referredColumn="94A2FEE0-2CD0-BDD7-5D4F-343660B74E49"/>
+</associations>
+</Column>
+<Column name="nazev" id="28C5281F-0772-D6CB-4C3D-A44DAA56184B">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>542D2422-1376-2495-E1C9-D67B44274438</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91C99E08-F415-D855-0B30-CC11A442FC1A" name="KATEGORIE_PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>4603A9BB-6767-84FF-F1D1-C1E230165C52</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94A2FEE0-2CD0-BDD7-5D4F-343660B74E49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC79C839-D889-F749-AEE0-CC79AD7F0D9D" name="KATEGORIE_KATEGORIE_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>DB4F6CA0-F837-ECE4-9BD4-5C8B5BD07B85</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A74B4CA-306D-EAC6-3E12-1ED4C8B20D4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

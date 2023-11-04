@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="24644C77-2852-55CF-188F-596B61E9217E" containerWithKeyObject="9C34014C-B3AD-1081-4CF4-41A158CD4ECC" localFKIndex="FAC878FD-A63A-EE73-81FE-4ACE81DAAC9D" name="OBJEDNAVKA_STAV_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>F327631F-ADFC-A825-A2C6-E233F96565C0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>STAV</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2ED03175-F270-6654-6655-EDBE875C6B49</referredTableID>
+<keyObject>C3074E83-79B0-3C21-E0A1-B315133F0C67</keyObject>
+<referredKeyID>C3074E83-79B0-3C21-E0A1-B315133F0C67</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>stav_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

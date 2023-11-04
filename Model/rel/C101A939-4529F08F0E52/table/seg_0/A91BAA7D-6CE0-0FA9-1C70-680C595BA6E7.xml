@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A91BAA7D-6CE0-0FA9-1C70-680C595BA6E7" name="HISTORIE_CENY">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kvetina_id" id="9A33AE76-B195-2281-D06B-8829A1CE302B">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E387347-C2A7-B24B-5EE2-18D0386A405B" referredColumn="108E3F00-0CE3-483B-9626-2674D39E3AA9"/>
+</associations>
+</Column>
+<Column name="cena_id" id="674D1F69-3704-07F8-0B2C-0B671F88D482">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32D17AE5-D57A-4FB8-9121-D861D1D73EDD" referredColumn="55CBB3B0-1ABC-7643-13D2-76D5CCC071E6"/>
+</associations>
+</Column>
+<Column name="cas_od" id="2F2F6F79-4384-BF61-DF73-4F4F86D9989C">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>EE9E1EF4-12B9-5D39-6B91-36BD26C091AA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="cas_do" id="512578EC-B27C-01BB-D7C3-2042B15C0157">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>06FC849A-9AEC-9CB8-E384-DC13BF263584</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2504DC0-2E5C-72EF-153B-59ED8078AB1E" name="HISTORIE_CENY_PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A33AE76-B195-2281-D06B-8829A1CE302B"/>
+<colUsage columnID="674D1F69-3704-07F8-0B2C-0B671F88D482"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6978AECD-7A3A-9BF2-C497-33F865AD74AD" name="HISTORIE_CENY_KVETINA_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>02A2AF72-C630-7678-3689-A56513F1E1D8</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A33AE76-B195-2281-D06B-8829A1CE302B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D1F6197-A42A-29A7-FA64-7E8C0AF3B4F6" name="HISTORIE_CENY_CENA_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>02A2AF72-C630-7678-3689-A56513F1E1D8</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="674D1F69-3704-07F8-0B2C-0B671F88D482"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

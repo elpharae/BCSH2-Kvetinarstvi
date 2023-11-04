@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HISTORIE_CENY" directorySegmentName="seg_0" id="02A2AF72-C630-7678-3689-A56513F1E1D8">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 21:12:20 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9DDAF2CD-E668-B89A-9D9C-39D256A87AAC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5E00E205-0C98-B862-120C-02AD6EEB2B3D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="cas_od" id="EE9E1EF4-12B9-5D39-6B91-36BD26C091AA">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 21:13:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="cas_do" id="06FC849A-9AEC-9CB8-E384-DC13BF263584">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 21:13:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

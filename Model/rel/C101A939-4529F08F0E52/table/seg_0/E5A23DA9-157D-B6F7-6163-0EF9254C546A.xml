@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5A23DA9-157D-B6F7-6163-0EF9254C546A" name="STAVY">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>7A14A0D6-39AD-B468-B82E-F6440AD7A2AD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>stav</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stav_id" id="06A58463-732D-D1F4-CFF8-6782D991CB4B">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>ED13C50E-440C-417E-DA47-CCBE5996723C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>s_stav_id</autoIncrementSequenceName>
+<autoIncrementTriggerName>t_stav_id</autoIncrementTriggerName>
+</Column>
+<Column name="nazev" id="3DE28FF5-8184-9C52-0BCF-7F8E9A33602D">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>5CBE72A7-CCB6-D54D-19AA-7009C9CA9831</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F05530F-930F-28DD-A8C5-8411D07ECB0F" name="STAV_PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>3FABDCD4-6AAB-1394-E2B3-978FE713FD04</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06A58463-732D-D1F4-CFF8-6782D991CB4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

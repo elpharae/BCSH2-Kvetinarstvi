@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OBJEDNANE_KVETINY" directorySegmentName="seg_0" id="7F55A441-CBC5-5F47-440A-5239000A30B0">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 14:35:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>83528895-20BF-AB7B-C220-DC238C669B61</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9DDAF2CD-E668-B89A-9D9C-39D256A87AAC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="mnozstvi" id="C4863D31-4E6F-7156-C104-CD8615A78106">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 14:56:18 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="cena_za_kus" id="81D50DAF-1EA3-D4ED-98A2-57EE6EF3DACF">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 18:22:42 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

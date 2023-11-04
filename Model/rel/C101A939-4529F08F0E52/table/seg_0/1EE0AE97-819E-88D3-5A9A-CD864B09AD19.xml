@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EE0AE97-819E-88D3-5A9A-CD864B09AD19" name="OBJEDNAVKY">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>83528895-20BF-AB7B-C220-DC238C669B61</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>objednavka</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="objednavka_id" id="8CA957AC-44BD-6E99-4971-60EEA86DA346">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>43078463-5C06-6746-BEE6-2500E9613788</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>s_objednavka_id</autoIncrementSequenceName>
+<autoIncrementTriggerName>t_objednavka_id</autoIncrementTriggerName>
+</Column>
+<Column name="celkova_cena" id="32447760-9A22-EF1E-CB96-574DF4965618">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>6B1A305E-6A54-D802-9DE0-0E02290669FD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_objednavky" id="FF3511F1-C579-3490-31E5-72DA0BFFAF94">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>2BA578E6-3F78-DC54-A15D-B90619B3AC3D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zakaznik_id" id="29B8B28D-9674-FCBF-12F0-7956E8DDD7CE">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>443B22FD-5108-E1F7-EA32-BEE0C7D63720</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39B0D46B-52B6-1D5C-65E9-167A2B676029" referredColumn="4B7B1F0C-9021-97B7-2DA3-8FB760F17A62"/>
+</associations>
+</Column>
+<Column name="platba_id" id="20A5E665-EEF9-9880-B13A-D1D71083C041">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>682B9FB9-3354-364A-61F0-C8835CEFB051</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D359925-875D-119A-646F-43C1014A9F3D" referredColumn="547BF692-9F4E-11C6-D994-B7A2BD2970CC"/>
+</associations>
+</Column>
+<Column name="stav_id" id="30505905-6507-02C7-5E70-E331A6C18645">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>FF646C05-B1E5-0E6A-F16B-9B312B3CCFA0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2235DE9C-49DA-EC3B-F20B-237B0A6C9D28" referredColumn="06A58463-732D-D1F4-CFF8-6782D991CB4B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C15EE9D4-BB27-4BB9-F9A6-A662F0E63E2B" name="OBJEDNAVKA_PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>DD26D43D-6577-2FEB-EE97-32AB351CB088</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CA957AC-44BD-6E99-4971-60EEA86DA346"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="128E66A7-1CBB-FC1E-9E19-07FC0CDFB2DF" name="OBJEDNAVKA_ZAKAZNIK_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>1F344286-A973-51DB-DAAA-6C9E5E00EFD5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29B8B28D-9674-FCBF-12F0-7956E8DDD7CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14631A44-295F-439C-3435-CE57D67DF7A2" name="OBJEDNAVKA_PLATBA_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>53F007C0-BF24-A804-EDA0-AE3320AD09E4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20A5E665-EEF9-9880-B13A-D1D71083C041"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6969DA6F-234D-F750-8DA6-DA180853A753" name="OBJEDNAVKA_STAV_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>F327631F-ADFC-A825-A2C6-E233F96565C0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30505905-6507-02C7-5E70-E331A6C18645"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

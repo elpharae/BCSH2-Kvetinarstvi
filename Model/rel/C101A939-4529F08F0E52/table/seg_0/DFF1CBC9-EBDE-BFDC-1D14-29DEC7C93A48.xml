@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFF1CBC9-EBDE-BFDC-1D14-29DEC7C93A48" name="ZAKAZNICI">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>9CF8E2A4-0A26-FB41-368E-DC565EC43007</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>zakaznik</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zakaznik_id" id="4B7B1F0C-9021-97B7-2DA3-8FB760F17A62">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>2581321D-1079-8D41-8A42-8B436F8020F1</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>s_zakaznik_id</autoIncrementSequenceName>
+<autoIncrementTriggerName>t_zakaznik_id</autoIncrementTriggerName>
+</Column>
+<Column name="adresa_id" id="3913581E-A2DE-EAA6-F2C3-D822562C1816">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>674EBF27-AE5F-3715-FDF6-A89E946F3306</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EB54A4C-0D0C-9679-ED9D-EEBC726863CC" referredColumn="A1575D44-B596-133F-3EBF-0D33BD3CC49B"/>
+</associations>
+</Column>
+<Column name="obrazek_id" id="8580E80E-23F3-84BD-6829-17EF1B1EBD23">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>91C19A9F-7F71-7D2D-E23C-18F39B858A40</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED42E3D9-C127-5F5C-7782-4F7CF0D1EEC7" referredColumn="F3992CE8-2258-BFCE-2FCA-29C10AA43DFA"/>
+</associations>
+</Column>
+<Column name="opravneni_id" id="15AD1EEE-11BC-E422-A179-2C67A7F879B1">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>514A75FB-E8FD-67B4-73C9-7B9BC1072563</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9B4A206-C858-5B54-16FC-FF06F60F0347" referredColumn="06EE4A5D-800E-F847-DFFE-784F7647BC2E"/>
+</associations>
+</Column>
+<Column name="email" id="BCFC03CE-2BBE-E67A-DDB0-635938C1F957">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>2FA06607-6788-CF69-F541-23E98302FA96</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jmeno" id="57353F85-316F-3823-5BB5-AFA45AF72F83">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>D9218262-6A47-61A9-7D02-3E7D828D6CF2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prijmeni" id="8F86DB8C-D3B7-039C-D423-D5FA008B8FD1">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>31605F86-7B36-4825-69C5-DA2DB0071823</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="heslo_bcrypt" id="30D60E78-6555-BAAC-F3D4-2826D49C965C">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>B50F84B3-FB74-38CC-B0E6-5A559AA74F72</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15D37481-2295-352B-4162-63C7EEA9702A" name="ZAKAZNIK_PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>D3F61D07-D69B-0B93-2855-FE894796E0EF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B7B1F0C-9021-97B7-2DA3-8FB760F17A62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7276CC1A-D70E-83DF-A9E3-C1165F44B459" name="ZAKAZNIK_ADRESA_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>396EA6E5-A602-B893-0231-4AB56B73B367</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3913581E-A2DE-EAA6-F2C3-D822562C1816"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1726D642-219B-2E03-C61F-3EDC9352ADC1" name="ZAKAZNIK_OBRAZEK_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>4F53F5F9-1448-3E95-0B5C-836F8938837C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8580E80E-23F3-84BD-6829-17EF1B1EBD23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8ED96077-ABA6-0EA9-3A5D-899A5B2DF6D5" name="ZAKAZNIK_OPRAVNENI_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>1D4705EA-01C3-41F2-4F0C-39C086F30EBF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15AD1EEE-11BC-E422-A179-2C67A7F879B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

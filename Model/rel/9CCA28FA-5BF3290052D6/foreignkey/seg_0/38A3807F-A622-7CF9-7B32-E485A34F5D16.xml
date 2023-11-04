@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="38A3807F-A622-7CF9-7B32-E485A34F5D16" containerWithKeyObject="8EBA235F-B504-F288-F0C2-64096477EBD9" localFKIndex="7735CD93-6DFE-27E7-E938-EC910B321B25" name="ZAMESTNANEC_PRACOVISTE_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>7974E8DC-CEEC-3D15-26B5-825AAFA8F687</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>PRACOVISTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>886C74A0-F484-2415-C92A-1C48A8F62810</referredTableID>
+<keyObject>E8F909D1-846C-9296-E3CF-171705F4C7B7</keyObject>
+<referredKeyID>E8F909D1-846C-9296-E3CF-171705F4C7B7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pracoviste_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

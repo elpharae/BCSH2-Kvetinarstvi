@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D359925-875D-119A-646F-43C1014A9F3D" containerWithKeyObject="1EE0AE97-819E-88D3-5A9A-CD864B09AD19" localFKIndex="14631A44-295F-439C-3435-CE57D67DF7A2" name="OBJEDNAVKA_PLATBA_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>53F007C0-BF24-A804-EDA0-AE3320AD09E4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>PLATBY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0CDE5B60-746C-B264-0552-BCA00766A8E2</referredTableID>
+<keyObject>FBE33CDD-D551-00D4-A700-9C08ECCBB8AE</keyObject>
+<referredKeyID>FBE33CDD-D551-00D4-A700-9C08ECCBB8AE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>platba_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

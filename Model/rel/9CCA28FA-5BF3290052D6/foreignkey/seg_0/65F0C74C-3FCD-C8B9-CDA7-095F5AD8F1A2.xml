@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="65F0C74C-3FCD-C8B9-CDA7-095F5AD8F1A2" containerWithKeyObject="2C49E34E-545B-4230-CF26-35BE4AAF9B63" localFKIndex="346E75C6-03C9-55D3-B105-9A37E91FE57F" name="KVETINA_BARVA_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>9B4CF34B-5E27-45D3-5230-9B153D5EAD46</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>BARVA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B693C799-F0C3-253B-8BD0-EA20F216050C</referredTableID>
+<keyObject>D4585761-BBA2-5837-F0E0-882A58B3B97C</keyObject>
+<referredKeyID>D4585761-BBA2-5837-F0E0-882A58B3B97C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>barva_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

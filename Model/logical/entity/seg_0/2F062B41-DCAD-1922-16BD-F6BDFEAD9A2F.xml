@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F062B41-DCAD-1922-16BD-F6BDFEAD9A2F" name="Category">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F062B41-DCAD-1922-16BD-F6BDFEAD9A2F" name="KATEGORIE">
 <createdBy>elpha</createdBy>
 <createdTime>2023-11-02 23:15:24 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="08E116C2-CDE4-7960-1E27-040820AB764C" value="true"/>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,4 +14,61 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="kategorie_id" id="5E605B47-4F0E-6B2F-88F1-DD39F611C5E3">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 14:35:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nadkategorie_id" id="893B17C8-885C-1730-BFB7-CAF3D286186E">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 14:46:09 UTC</createdTime>
+<generatorID>DB4F6CA0-F837-ECE4-9BD4-5C8B5BD07B85</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5E605B47-4F0E-6B2F-88F1-DD39F611C5E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="542D2422-1376-2495-E1C9-D67B44274438">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 18:51:36 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4603A9BB-6767-84FF-F1D1-C1E230165C52" name="Category PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-03 14:35:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E605B47-4F0E-6B2F-88F1-DD39F611C5E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

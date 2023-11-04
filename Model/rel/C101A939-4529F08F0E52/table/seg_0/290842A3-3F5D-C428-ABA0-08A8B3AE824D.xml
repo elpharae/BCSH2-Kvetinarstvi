@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="290842A3-3F5D-C428-ABA0-08A8B3AE824D" name="KVETINY">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>9DDAF2CD-E668-B89A-9D9C-39D256A87AAC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>kvetina</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kvetina_id" id="108E3F00-0CE3-483B-9626-2674D39E3AA9">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>3A3A317D-0F41-B8A2-75D7-5618D59A8AA3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>s_kvetina_id</autoIncrementSequenceName>
+<autoIncrementTriggerName>t_kvetina_id</autoIncrementTriggerName>
+</Column>
+<Column name="barva_id" id="364EAA6F-6B8F-20EF-BDEC-B901892E7246">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>9D806013-AD89-1190-7BFB-8E3B00ABFF84</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DFFCD7F-DD95-4BEE-D46B-96D0A885C5FB" referredColumn="037052E5-569C-0E2E-8854-6AC3948B4DF9"/>
+</associations>
+</Column>
+<Column name="kategorie_id" id="7B0FD332-52DA-D015-E787-34D538D7941D">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>4BC71FEC-FF45-949F-8D67-B6D90E961CE7</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AAC4807-47BB-93CC-97D3-BC8FD62925B7" referredColumn="66E47909-962D-44F1-D5D3-E756482D246A"/>
+</associations>
+</Column>
+<Column name="obrazek_id" id="50165A71-CF65-CF19-348D-72D33E38E0AD">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>47C58F85-DF1D-9DDE-2D6B-A41690A04881</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31020FED-BFE2-8587-BB1F-7DC724B214BE" referredColumn="F3992CE8-2258-BFCE-2FCA-29C10AA43DFA"/>
+</associations>
+</Column>
+<Column name="nazev" id="9B8838E6-AF5C-544A-EBD9-55B264B13C15">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>38F8A55E-1B9F-118C-964E-73731A9BF6C9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pocet" id="8B655C04-6EA5-F382-33D0-79622F852C1F">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>BEDFD879-FF36-1D2D-6A2E-78970D78318C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="popis" id="94D08707-E981-F126-E7D3-12B1A734CB28">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>482378C3-B006-9DDC-13A9-D0C92869E130</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D11D116-F5CD-A4D8-3046-5C25A78E3CBE" name="KVETINA_PK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>254A1B07-0063-C924-BCC4-F89056071264</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="108E3F00-0CE3-483B-9626-2674D39E3AA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36BBD1A7-5239-4CBF-A11F-97C2D754651E" name="KVETINA_BARVA_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>9B4CF34B-5E27-45D3-5230-9B153D5EAD46</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="364EAA6F-6B8F-20EF-BDEC-B901892E7246"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8401C992-3F65-8B1D-4B84-C9C853546932" name="KVETINA_KATEGORIE_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>EEFAA6C6-E803-0DEB-5974-E12FC16733C7</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B0FD332-52DA-D015-E787-34D538D7941D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44F782AD-430E-FB65-6925-A3B589FC8C46" name="KVETINA_OBRAZEK_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 00:20:14 UTC</createdTime>
+<generatorID>57761F03-4B28-D8D5-7F97-79400EC12B76</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50165A71-CF65-CF19-348D-72D33E38E0AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
