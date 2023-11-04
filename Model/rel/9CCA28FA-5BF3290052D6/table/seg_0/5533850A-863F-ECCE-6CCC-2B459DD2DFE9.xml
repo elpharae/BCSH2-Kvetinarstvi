@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5533850A-863F-ECCE-6CCC-2B459DD2DFE9" name="PLATBA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5533850A-863F-ECCE-6CCC-2B459DD2DFE9" name="PLATBY">
 <createdBy>elpha</createdBy>
 <createdTime>2023-11-04 14:06:57 UTC</createdTime>
 <generatorID>7879104C-A052-007B-E98F-8992F0655E0B</generatorID>
 <ownerDesignName>model</ownerDesignName>
+<ordsAlias>platba</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -17,7 +18,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>s_platba_id</autoIncrementSequenceName>
+<autoIncrementTriggerName>t_platba_id</autoIncrementTriggerName>
 </Column>
 <Column name="nazev" id="DBA04B44-4E28-6E75-2167-528B8B81AE33">
 <createdBy>elpha</createdBy>

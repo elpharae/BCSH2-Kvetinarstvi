@@ -17,7 +17,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>s_pracovni_pozice_id</autoIncrementSequenceName>
+<autoIncrementTriggerName>t_pracovni_pozice_id</autoIncrementTriggerName>
 </Column>
 <Column name="nazev" id="4EB9FB9E-76C7-F544-9CC7-76A2DF17FBCB">
 <createdBy>elpha</createdBy>

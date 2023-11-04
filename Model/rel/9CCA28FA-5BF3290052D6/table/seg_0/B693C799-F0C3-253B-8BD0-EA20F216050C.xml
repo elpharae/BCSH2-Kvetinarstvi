@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B693C799-F0C3-253B-8BD0-EA20F216050C" name="BARVA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B693C799-F0C3-253B-8BD0-EA20F216050C" name="BARVY">
 <createdBy>elpha</createdBy>
 <createdTime>2023-11-04 14:06:57 UTC</createdTime>
 <generatorID>D0DC2609-A50F-9B43-FC68-619DA6078D03</generatorID>
 <ownerDesignName>model</ownerDesignName>
+<ordsAlias>barva</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -17,7 +18,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>s_barva_id</autoIncrementSequenceName>
+<autoIncrementTriggerName>t_barva_id</autoIncrementTriggerName>
 </Column>
 <Column name="nazev" id="42552935-D3DA-0271-D04D-A8BEC1298F85">
 <createdBy>elpha</createdBy>

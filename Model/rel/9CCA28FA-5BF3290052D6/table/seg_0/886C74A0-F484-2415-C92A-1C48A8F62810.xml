@@ -17,7 +17,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>s_pracoviste_id</autoIncrementSequenceName>
+<autoIncrementTriggerName>t_pracoviste_id</autoIncrementTriggerName>
 </Column>
 <Column name="adresa_id" id="9E4AAF3B-A419-B910-9364-2CB395CA10B7">
 <createdBy>elpha</createdBy>

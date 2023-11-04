@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7509B029-4CAB-46BE-ECD4-AE4AF50E998E" name="CENA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7509B029-4CAB-46BE-ECD4-AE4AF50E998E" name="CENY">
 <createdBy>elpha</createdBy>
 <createdTime>2023-11-04 14:06:57 UTC</createdTime>
 <generatorID>5E00E205-0C98-B862-120C-02AD6EEB2B3D</generatorID>
 <ownerDesignName>model</ownerDesignName>
+<ordsAlias>cena</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -17,7 +18,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>s_cena_id</autoIncrementSequenceName>
+<autoIncrementTriggerName>t_cena_id</autoIncrementTriggerName>
 </Column>
 <Column name="hodnota" id="90B30F93-733A-FB8C-C29F-1411F81C7FFB">
 <createdBy>elpha</createdBy>
