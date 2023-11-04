@@ -13,10 +13,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Kvetinarstvi
-build_property.ProjectDir = C:\Users\elpha\Desktop\UPCE\BDAS2\Kvetinarstvi\Kvetinarstvi\
+build_property.ProjectDir = /home/radek/RiderProjects/BDAS2-Kvetinarstvi-BouraHoffmann/Kvetinarstvi/
 
-[C:/Users/elpha/Desktop/UPCE/BDAS2/Kvetinarstvi/Kvetinarstvi/App.axaml]
+[/home/radek/RiderProjects/BDAS2-Kvetinarstvi-BouraHoffmann/Kvetinarstvi/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/elpha/Desktop/UPCE/BDAS2/Kvetinarstvi/Kvetinarstvi/Views/MainWindow.axaml]
+[/home/radek/RiderProjects/BDAS2-Kvetinarstvi-BouraHoffmann/Kvetinarstvi/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

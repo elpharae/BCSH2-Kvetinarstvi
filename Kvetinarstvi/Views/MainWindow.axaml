@@ -3,18 +3,93 @@
         xmlns:vm="using:Kvetinarstvi.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="1024" d:DesignHeight="768"
         x:Class="Kvetinarstvi.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="Kvetinarstvi">
-
+        Title="Kvetinarstvi"
+        RequestedThemeVariant="Light">
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Row 1, Column 1 -->
+        <Border Grid.Row="0" Grid.Column="0" Background="LightGray">
+            <Button
+                Content="LOG IN"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Background="HotPink"
+                Padding="20 5 20 5"
+                FontSize="20"
+                Foreground="White"></Button>
+        </Border>
+
+        <!-- Row 1, Column 2 -->
+        <Border Grid.Row="0" Grid.Column="1" Background="LightGray">
+            <Button
+                Content="Kvetiny"></Button>
+        </Border>
+
+        <!-- Row 2, Column 1 -->
+        <Border Grid.Row="1" Grid.Column="0" Background="LightCoral">
+            <!-- Content for the third cell goes here -->
+        </Border>
+
+        <!-- Row 2, Column 2 -->
+        <Border Grid.Row="1" Grid.Column="1" Background="MistyRose">
+            <ListBox ItemsSource="{Binding Kvetiny}">
+                <ListBox.Template>
+                    <ControlTemplate>
+                        <DockPanel LastChildFill="True">
+                            <Grid DockPanel.Dock="Top" Height="30">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"></ColumnDefinition>
+                                    <ColumnDefinition Width="50"></ColumnDefinition>
+                                    <ColumnDefinition Width="300"></ColumnDefinition>
+                                    <ColumnDefinition Width="100"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column="0">Nazev</Label>
+                                <Label Grid.Column="1">Pocet</Label>
+                                <Label Grid.Column="2">Popis</Label>
+                                <Label Grid.Column="3">Barva</Label>
+                            </Grid>
+                            <ItemsPresenter></ItemsPresenter>
+                        </DockPanel>
+                    </ControlTemplate>
+                </ListBox.Template>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="50"></ColumnDefinition>
+                                <ColumnDefinition Width="300"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="{Binding Nazev}"></TextBlock>
+                            <TextBlock Text="{Binding Pocet}" Grid.Column="1"></TextBlock>
+                            <TextBlock Text="{Binding Popis}" Grid.Column="2"></TextBlock>
+                            <TextBlock Text="{Binding Barva.Nazev}" Grid.Column="3"></TextBlock>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+        </Border>
+    </Grid>
+    <!-- <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/> -->
 
 </Window>
