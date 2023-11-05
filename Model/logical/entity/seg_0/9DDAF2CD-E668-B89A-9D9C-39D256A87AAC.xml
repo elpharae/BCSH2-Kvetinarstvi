@@ -4,7 +4,7 @@
 <createdTime>2023-11-02 23:15:19 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-11-03 14:35:02 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <generatorID>9B4CF34B-5E27-45D3-5230-9B153D5EAD46</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <referedAttribute>63E4E926-D1C0-38B2-5609-7828DE557451</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,7 +47,7 @@
 <generatorID>EEFAA6C6-E803-0DEB-5974-E12FC16733C7</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <referedAttribute>5E605B47-4F0E-6B2F-88F1-DD39F611C5E3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,7 +61,7 @@
 <generatorID>57761F03-4B28-D8D5-7F97-79400EC12B76</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>43A985A9-08A1-DF50-7D12-70486CC3049F</referedAttribute>
@@ -75,7 +75,7 @@
 <createdTime>2023-11-03 19:14:50 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -88,19 +88,33 @@
 <createdTime>2023-11-03 20:55:56 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cena" id="B3D3A8E9-0485-3494-6B18-30FA067ADFEE">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-05 21:46:46 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
 <Attribute name="popis" id="482378C3-B006-9DDC-13A9-D0C92869E130">
 <createdBy>elpha</createdBy>
 <createdTime>2023-11-03 19:15:05 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -114,9 +128,8 @@
 <createdBy>elpha</createdBy>
 <createdTime>2023-11-03 14:35:12 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="false"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

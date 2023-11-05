@@ -4,7 +4,7 @@
 <createdTime>2023-11-03 14:35:54 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
@@ -21,9 +21,8 @@
 <createdTime>2023-11-03 14:56:18 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -34,9 +33,8 @@
 <createdTime>2023-11-03 18:22:42 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
