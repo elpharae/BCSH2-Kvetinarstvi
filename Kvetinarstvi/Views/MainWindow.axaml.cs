@@ -9,5 +9,6 @@ public partial class MainWindow : Window
         InitializeComponent();
         this.Width = 1024;
         this.Height = 768;
+        
     }
 }

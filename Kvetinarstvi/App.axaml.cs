@@ -23,7 +23,8 @@ public partial class App : Application
             {
                 DataContext = new MainWindowViewModel(),
             };
-        }
+            desktop.MainWindow.Show();
+        } 
 
         base.OnFrameworkInitializationCompleted();
     }

@@ -18,5 +18,11 @@ build_property.ProjectDir = /home/radek/RiderProjects/BDAS2-Kvetinarstvi-BouraHo
 [/home/radek/RiderProjects/BDAS2-Kvetinarstvi-BouraHoffmann/Kvetinarstvi/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/home/radek/RiderProjects/BDAS2-Kvetinarstvi-BouraHoffmann/Kvetinarstvi/Views/BaseInterfaceView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/radek/RiderProjects/BDAS2-Kvetinarstvi-BouraHoffmann/Kvetinarstvi/Views/LogInView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/home/radek/RiderProjects/BDAS2-Kvetinarstvi-BouraHoffmann/Kvetinarstvi/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

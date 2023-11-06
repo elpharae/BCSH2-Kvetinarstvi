@@ -1,0 +1,22 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:Kvetinarstvi.ViewModels"
+        mc:Ignorable="d" d:DesignWidth="1024" d:DesignHeight="768"
+        x:Class="Kvetinarstvi.Views.LogInView"
+        Title="LogInView"
+        x:DataType="viewModels:LogInViewModel">
+    
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
+            <TextBlock Text="Username:" VerticalAlignment="Center" Margin="5" Width="80" />
+            <TextBox Name="UsernameTextBox" Width="150" Text="{Binding Username}"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
+            <TextBlock Text="Password:" VerticalAlignment="Center" Margin="5" Width="80" />
+            <TextBox Name="PasswordTextBox" Width="150" Text="{Binding Password}"/>
+        </StackPanel>
+        <Button Name="LoginButton" Content="LOG IN" HorizontalAlignment="Center" Margin="0,10" /> 
+    </StackPanel>
+</Window>

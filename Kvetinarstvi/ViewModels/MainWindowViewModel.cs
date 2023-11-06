@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
+﻿using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using Kvetinarstvi.Models;
 
@@ -8,15 +6,16 @@ namespace Kvetinarstvi.ViewModels;
 
 public partial class MainWindowViewModel : ViewModelBase
 {
-
+    public ViewModelBase CurrentViewModel { get; set; }
 
     [ObservableProperty] 
     public ObservableCollection<KvetinaModel> kvetiny;
-    // [ObservableProperty]
-    // public ObservableCollection<ObjednavkaModel> objednavky;
 
     public MainWindowViewModel()
     {
+        CurrentViewModel = new LogInViewModel();
+        
+
         KategorieModel katRezane = new KategorieModel(1, "rezane kvetiny",null);
         KategorieModel katSukulenty = new KategorieModel(2, "sukulenty",null);
         CenaModel cena1 = new CenaModel(1, 150);
