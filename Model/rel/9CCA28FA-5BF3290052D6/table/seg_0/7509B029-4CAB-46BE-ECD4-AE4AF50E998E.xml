@@ -36,6 +36,20 @@
 <ownDataTypeParameters>,6,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="kvetina_id" id="9696DB5D-1B92-57B0-3CFF-ED0A986B8227">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-05 22:35:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99708650-88EF-5D02-F37E-AC113971677D" referredColumn="8BC42199-68F5-143D-21C0-84A92704FDC9"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8A635E3A-7315-DC20-86EE-FB2B8574D3AD" name="CENA_PK">
@@ -48,6 +62,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3BAA833E-ACDF-0329-22D1-65A22289D15C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78F84AA2-44A7-FFB4-4494-FFDAF38C5201" name="CENY_KVETINY_FK">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-05 22:35:17 UTC</createdTime>
+<generatorID>254A1B07-0063-C924-BCC4-F89056071264</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9696DB5D-1B92-57B0-3CFF-ED0A986B8227"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

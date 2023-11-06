@@ -1,7 +1,7 @@
 namespace Kvetinarstvi.Models.Dto;
 
-public class StavDTO
+public class CenaDTO
 {
     public long ID { get; set; }
-    public string Nazev { get; set; }
+    public double Hodnota { get; set; }
 }

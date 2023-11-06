@@ -4,7 +4,7 @@
 <createdTime>2023-11-02 23:13:23 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-11-03 14:33:43 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2023-11-03 19:04:30 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2023-11-03 19:04:55 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +58,7 @@
 <createdTime>2023-11-03 19:05:23 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -71,12 +71,25 @@
 <createdTime>2023-11-03 19:06:33 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zeme" id="B94F0309-6C81-D492-2DF4-601F4561157B">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-05 22:08:53 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -84,9 +97,8 @@
 <createdBy>elpha</createdBy>
 <createdTime>2023-11-03 14:33:49 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="false"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

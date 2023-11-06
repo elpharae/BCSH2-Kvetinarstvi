@@ -72,7 +72,7 @@
 </OView>
 </objectViews>
 <connectors>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="02A2AF72-C630-7678-3689-A56513F1E1D8" otype="Relation" vid_source="9DE92B09-6139-680B-45AA-BF15ADC9D1C2" vid_target="48224470-8C73-3F78-5A6F-76AA5A1D2A21">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="062385A6-091B-E57F-E238-B06256435DF3" otype="Relation" vid_source="9DE92B09-6139-680B-45AA-BF15ADC9D1C2" vid_target="48224470-8C73-3F78-5A6F-76AA5A1D2A21">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>

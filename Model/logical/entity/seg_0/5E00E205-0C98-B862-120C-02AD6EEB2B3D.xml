@@ -4,7 +4,7 @@
 <createdTime>2023-11-02 23:15:03 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,8 +20,22 @@
 <createdTime>2023-11-03 14:34:13 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kvetina_id" id="7FF3CC55-EDA1-A438-9248-22D63807F7DD">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-05 22:34:48 UTC</createdTime>
+<generatorID>062385A6-091B-E57F-E238-B06256435DF3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
+</engineerTo>
+<referedAttribute>3A3A317D-0F41-B8A2-75D7-5618D59A8AA3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -32,7 +46,7 @@
 <createdTime>2023-11-03 18:34:30 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="true"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,9 +61,8 @@
 <createdBy>elpha</createdBy>
 <createdTime>2023-11-03 14:34:27 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C101A939-F48E-6118-5DA2-4529F08F0E52" value="false"/>
+<item key="9CCA28FA-2A9C-22D7-0A6E-5BF3290052D6" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
