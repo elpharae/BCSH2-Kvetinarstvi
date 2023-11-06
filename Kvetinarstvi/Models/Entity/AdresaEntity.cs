@@ -1,6 +1,6 @@
-namespace Kvetinarstvi.Models.Dto;
+namespace Kvetinarstvi.Models.Entity;
 
-public class AdresaDTO
+public class AdresaEntity
 {
     public long ID { get; set; }
     public string PSC { get; set; }

@@ -1,6 +1,6 @@
-namespace Kvetinarstvi.Models.Dto;
+namespace Kvetinarstvi.Models.Entity;
 
-public class OpravneniDTO
+public class OpravneniEntity
 {
     public long ID { get; set; }
     public long Nazev { get; set; }

@@ -1,6 +1,6 @@
-namespace Kvetinarstvi.Models.Dto;
+namespace Kvetinarstvi.Models.Entity;
 
-public class ObrazekDTO
+public class ObrazekEntity
 {
     public long ID { get; set; }
     public byte[] Data { get; set; }

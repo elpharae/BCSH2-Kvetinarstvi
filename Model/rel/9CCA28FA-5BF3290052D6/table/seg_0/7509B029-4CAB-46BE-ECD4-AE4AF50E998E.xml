@@ -50,6 +50,26 @@
 <colAssociation fkAssociation="99708650-88EF-5D02-F37E-AC113971677D" referredColumn="8BC42199-68F5-143D-21C0-84A92704FDC9"/>
 </associations>
 </Column>
+<Column name="cena_do" id="12F4323E-EFF0-9A08-74C4-25F25542BBF4">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-06 08:37:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena_od" id="88674F03-E4E6-E03D-DFF7-A9616C8C3B94">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-06 08:38:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8A635E3A-7315-DC20-86EE-FB2B8574D3AD" name="CENA_PK">

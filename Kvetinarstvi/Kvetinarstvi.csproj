@@ -24,11 +24,4 @@
         <PackageReference Include="Oracle.EntityFrameworkCore" Version="7.21.12" />
         <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
     </ItemGroup>
-
-
-    <ItemGroup>
-      <Folder Include="Models\Entity\" />
-      <Folder Include="Models\Repository\" />
-      <Folder Include="Models\Service\" />
-    </ItemGroup>
 </Project>

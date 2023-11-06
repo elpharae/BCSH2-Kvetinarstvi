@@ -1,6 +1,6 @@
-namespace Kvetinarstvi.Models.Dto;
+namespace Kvetinarstvi.Models.Entity;
 
-public class PracovniPoziceDTO
+public class BarvaEntity
 {
     public long ID { get; set; }
     public string Nazev { get; set; }
