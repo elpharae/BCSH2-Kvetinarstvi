@@ -23,19 +23,6 @@
 <autoIncrementSequenceName>s_cena_id</autoIncrementSequenceName>
 <autoIncrementTriggerName>t_cena_id</autoIncrementTriggerName>
 </Column>
-<Column name="hodnota" id="90B30F93-733A-FB8C-C29F-1411F81C7FFB">
-<createdBy>elpha</createdBy>
-<createdTime>2023-11-04 14:06:57 UTC</createdTime>
-<generatorID>F72CB2D1-19F9-8077-BD55-4E6E4415E4E1</generatorID>
-<ownerDesignName>model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,6,2</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="kvetina_id" id="9696DB5D-1B92-57B0-3CFF-ED0A986B8227">
 <createdBy>elpha</createdBy>
 <createdTime>2023-11-05 22:35:17 UTC</createdTime>
@@ -49,6 +36,19 @@
 <associations>
 <colAssociation fkAssociation="99708650-88EF-5D02-F37E-AC113971677D" referredColumn="8BC42199-68F5-143D-21C0-84A92704FDC9"/>
 </associations>
+</Column>
+<Column name="hodnota" id="90B30F93-733A-FB8C-C29F-1411F81C7FFB">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>F72CB2D1-19F9-8077-BD55-4E6E4415E4E1</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cena_do" id="12F4323E-EFF0-9A08-74C4-25F25542BBF4">
 <createdBy>elpha</createdBy>

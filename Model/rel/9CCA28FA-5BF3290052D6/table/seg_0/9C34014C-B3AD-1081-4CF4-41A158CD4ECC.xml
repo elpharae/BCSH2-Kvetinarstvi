@@ -38,30 +38,6 @@
 <colAssociation fkAssociation="E28D0E1D-4CA8-D25A-B337-17B4A067969D" referredColumn="7EE86463-617D-7FFC-FFFA-67DD28F09636"/>
 </associations>
 </Column>
-<Column name="celkova_cena" id="837FF29D-5F58-9099-16D3-7F859D19BB40">
-<createdBy>elpha</createdBy>
-<createdTime>2023-11-04 14:06:57 UTC</createdTime>
-<generatorID>6B1A305E-6A54-D802-9DE0-0E02290669FD</generatorID>
-<ownerDesignName>model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,8,2</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="datum_objednavky" id="C995FB37-A7BD-F640-CFC6-CF5A439B72AF">
-<createdBy>elpha</createdBy>
-<createdTime>2023-11-04 14:06:57 UTC</createdTime>
-<generatorID>2BA578E6-3F78-DC54-A15D-B90619B3AC3D</generatorID>
-<ownerDesignName>model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="platba_id" id="0355AE50-5900-C30D-140B-1E338EDB9803">
 <createdBy>elpha</createdBy>
 <createdTime>2023-11-04 14:06:57 UTC</createdTime>
@@ -91,6 +67,30 @@
 <associations>
 <colAssociation fkAssociation="24644C77-2852-55CF-188F-596B61E9217E" referredColumn="90D3B6FE-C398-A180-A801-409147A9AC49"/>
 </associations>
+</Column>
+<Column name="celkova_cena" id="837FF29D-5F58-9099-16D3-7F859D19BB40">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>6B1A305E-6A54-D802-9DE0-0E02290669FD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_objednavky" id="C995FB37-A7BD-F640-CFC6-CF5A439B72AF">
+<createdBy>elpha</createdBy>
+<createdTime>2023-11-04 14:06:57 UTC</createdTime>
+<generatorID>2BA578E6-3F78-DC54-A15D-B90619B3AC3D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

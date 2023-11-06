@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7364609F-359E-1E12-84CF-B915BCD1F6F6" containerWithKeyObject="8A91EEF7-AF9B-6DDD-69D3-02D7F8ABE792" localFKIndex="F0AD082E-05F7-94C7-2CF7-7C602FFF03B6" name="OBJEDNANE_KVETINY_KVETINA_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7364609F-359E-1E12-84CF-B915BCD1F6F6" containerWithKeyObject="8A91EEF7-AF9B-6DDD-69D3-02D7F8ABE792" localFKIndex="F0AD082E-05F7-94C7-2CF7-7C602FFF03B6" name="OBJKV_KVETINA_FK">
 <createdBy>elpha</createdBy>
 <createdTime>2023-11-04 14:06:57 UTC</createdTime>
 <generatorID>7F55A441-CBC5-5F47-440A-5239000A30B0</generatorID>
 <ownerDesignName>model</ownerDesignName>
-<referredTableLongName>KVETINA</referredTableLongName>
+<referredTableLongName>KVETINY</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>2C49E34E-545B-4230-CF26-35BE4AAF9B63</referredTableID>
 <keyObject>2652FBF2-71C7-AF55-D548-451B4D4312E2</keyObject>
