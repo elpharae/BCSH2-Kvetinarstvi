@@ -9,13 +9,5 @@ public partial class LogInView : Window
     public LogInView()
     {
         InitializeComponent();
-#if DEBUG
-        this.AttachDevTools();
-#endif
-    }
-
-    private void InitializeComponent()
-    {
-        AvaloniaXamlLoader.Load(this);
     }
 }

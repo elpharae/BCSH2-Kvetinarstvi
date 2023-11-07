@@ -8,6 +8,6 @@ public class StavModel
     public StavModel(int id, string nazev)
     {
         Id = id;
-        this.Nazev = nazev;
+        Nazev = nazev;
     }
 }

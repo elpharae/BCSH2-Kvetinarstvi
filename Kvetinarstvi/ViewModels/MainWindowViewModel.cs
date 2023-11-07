@@ -1,6 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using Kvetinarstvi.Models;
+using Kvetinarstvi.Views;
 
 namespace Kvetinarstvi.ViewModels;
 
@@ -13,7 +14,7 @@ public partial class MainWindowViewModel : ViewModelBase
 
     public MainWindowViewModel()
     {
-        CurrentViewModel = new LogInViewModel();
+        CurrentViewModel = this;
         
 
         KategorieModel katRezane = new KategorieModel(1, "rezane kvetiny",null);

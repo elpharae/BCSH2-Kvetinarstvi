@@ -10,15 +10,7 @@
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="Kvetinarstvi">
-    
-    <!-- doesnt work... -->
-    <!-- <ContentControl Content="{Binding CurrentViewModel}"/> -->
-<!--     <Grid> -->
-<!--     <views:LogInView DataContext="{Binding CurrentViewModel}"/> -->
-<!-- </Grid> -->
-    
-    
-
+   
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="60" />
@@ -33,6 +25,7 @@
         <Border Grid.Row="0" Grid.Column="0" Background="LightGray">
             <Button
                 Content="LOG IN"
+                Command="{Binding OpenLogInViewModel}"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
                 Background="HotPink"
