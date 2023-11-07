@@ -23,3 +23,6 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/elpha/Desktop/UPCE/BDAS2/Kvetinarstvi/Kvetinarstvi/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/radek/RiderProjects/BDAS2-Kvetinarstvi-BouraHoffmann/Kvetinarstvi/Views/RegisterView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

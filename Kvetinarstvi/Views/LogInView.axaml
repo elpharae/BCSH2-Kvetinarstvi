@@ -10,8 +10,8 @@
     
     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
-            <TextBlock Text="Username:" VerticalAlignment="Center" Margin="5" Width="80" />
-            <TextBox Name="UsernameTextBox" Width="150" Text="{Binding Username}"/>
+            <TextBlock Text="Email:" VerticalAlignment="Center" Margin="5" Width="80" />
+            <TextBox Name="EmailTextBox" Width="150" Text="{Binding Email}"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
             <TextBlock Text="Password:" VerticalAlignment="Center" Margin="5" Width="80" />
