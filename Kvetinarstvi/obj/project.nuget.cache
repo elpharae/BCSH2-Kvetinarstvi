@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XUPW3/dFGmLd68QGH4N+UFdL/bXOH2KxDvXr7ja3M/q9BA25HcsKXCTvcMyt03KUUllLK/dmfmVSHaLdNrp4hg==",
+  "dgSpecHash": "xiAMDxgwYYCN9y9vd3i58akrA8vfEWHnfWa+Df7gjI3Fo5xbYiIsmmOF/Wyb2qQQjDsNE8uE/q8AnZdpx8VYmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elpha\\Desktop\\UPCE\\BDAS2\\Kvetinarstvi\\Kvetinarstvi\\Kvetinarstvi.csproj",
+  "projectFilePath": "C:\\Users\\elpha\\Desktop\\UPCE\\BDAS2\\BDAS2-Kvetinarstvi-BouraHoffmann\\Kvetinarstvi\\Kvetinarstvi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elpha\\.nuget\\packages\\avalonia\\11.0.2\\avalonia.11.0.2.nupkg.sha512",
     "C:\\Users\\elpha\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2023020321\\avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

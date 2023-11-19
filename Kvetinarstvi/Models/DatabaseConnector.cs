@@ -12,7 +12,7 @@ public class DatabaseConnector {
         OracleConnection con = new(connectionString);
         con.Open();
         
-        Console.WriteLine("Connected to " + con.DatabaseName);
+        Console.WriteLine("Connected to " + con.HostName);
         return con;
     }
 

@@ -3,10 +3,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewModels="clr-namespace:Kvetinarstvi.ViewModels"
-        mc:Ignorable="d" d:DesignWidth="1024" d:DesignHeight="768"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="200"
         x:Class="Kvetinarstvi.Views.LogInView"
-        Title="LogInView"
-        x:DataType="viewModels:LogInViewModel">
+        Title="Přihlášení"
+        x:DataType="viewModels:LogInViewModel"
+        Width="400" Height="200">
+    
     
     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">

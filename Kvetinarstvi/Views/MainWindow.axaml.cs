@@ -13,11 +13,4 @@ public partial class MainWindow : Window
         this.Height = 768;
     }
 
-    [RelayCommand]
-    public LogInView OpenLoginViewModel()
-    {
-        LogInView window = new ();
-        window.Show();
-        return window;
-    }
 }

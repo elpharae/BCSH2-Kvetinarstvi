@@ -3,10 +3,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewModels="clr-namespace:Kvetinarstvi.ViewModels"
-        mc:Ignorable="d" d:DesignWidth="1024" d:DesignHeight="768"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="800"
         x:Class="Kvetinarstvi.Views.RegisterView"
-        Title="RegisterView"
-        x:DataType="viewModels:RegisterViewModel">
+        Title="Registrace"
+        x:DataType="viewModels:RegisterViewModel"
+        Width="600" Height="800">
     
         <Window.Styles>
                 <Style Selector="TextBlock">

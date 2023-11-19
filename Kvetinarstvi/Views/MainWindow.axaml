@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewmodels="clr-namespace:Kvetinarstvi.ViewModels"
         xmlns:views="clr-namespace:Kvetinarstvi.Views"
+        xmlns:kvetinarstvi="clr-namespace:Kvetinarstvi"
         mc:Ignorable="d" d:DesignWidth="1024" d:DesignHeight="768"
         x:Class="Kvetinarstvi.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
@@ -13,7 +14,7 @@
    
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="60" />
+            <RowDefinition Height="100" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -23,15 +24,26 @@
     
         <!-- Row 1, Column 1 -->
         <Border Grid.Row="0" Grid.Column="0" Background="LightGray">
-            <Button
-                Content="LOG IN"
-                Command="{Binding OpenLogInViewModel}"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center"
-                Background="HotPink"
-                Padding="20 5 20 5"
-                FontSize="20"
-                Foreground="White"></Button>
+            <StackPanel VerticalAlignment="Center">
+                <Button
+                    Content="PŘIHLÁSIT"
+                    Command="{Binding OpenLoginViewModel}"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Background="HotPink"
+                    Padding="20 5 20 5"
+                    FontSize="20"
+                    Foreground="White"></Button>
+                <Button
+                    Content="REGISTROVAT"
+                    Command="{Binding OpenRegisterViewModel}"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Background="HotPink"
+                    Padding="20 5 20 5"
+                    FontSize="20"
+                    Foreground="White"></Button>
+            </StackPanel>
         </Border>
     
         <!-- Row 1, Column 2 -->
